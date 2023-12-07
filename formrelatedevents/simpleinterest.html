@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>onclick</title>
+        <link rel="stylesheet" href="simpleinterest.css">
+        <script src="simpleinterest.js"></script>
+    </head>
+    <body>
+        <form action="serlet1" onsubmit=" return average()" onreset="return erasedata()">
+            <table align="center">
+                <caption>simpleinterest</caption>
+                 <tr>
+                <td>
+                    <label for="id1"> Enter p value:</label>
+                
+                </td>
+                <td>
+                    <input type="number" id="id1" placeholder="Enter p value" name="first number">
+                </td>
+                <td>
+                    <span id="span1">*</span>
+                </td>
+            </tr>
+                <tr>
+                    <td>
+                        <label for="id2"> Enter r value:</label>
+                    
+                    </td>
+                    <td>
+                        <input type="number" id="id2" placeholder="Enter r value" name="second number">
+                    </td>
+                    <td>
+                        <span id="span2">*</span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td>
+                            <label for="id3"> Enter t value:</label>
+                        
+                        </td>
+                        <td>
+                            <input type="number" id="id3" placeholder="Enter t value" name="third number">
+                        </td>
+                        
+                    <td>
+                        <span id="span1">*</span>
+                    </td></tr>
+                    <tr align="center">
+                        <td>
+                            <input type="submit" value="Interest">
+    
+                        </td>
+                        <td>
+                            <input type="reset" value="clear">
+    
+                        </td>
+                        
+                    </tr>
+            </table>
+        </form>
+    </body>
+</html>
