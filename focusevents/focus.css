@@ -1,0 +1,19 @@
+table
+{
+    border: 3px solid black;
+    background-color:wheat;
+}
+*{
+    padding: 5px;
+
+}
+#b1{
+    background-color: tomato;
+
+}
+#b2{
+    background-color: tomato;
+}
+#span1 ,#span2 ,#span3{
+    color: red;
+}

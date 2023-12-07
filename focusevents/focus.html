@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Onfocus</title>
+        <script>
+            function fun1(){
+                var data=document.getElementById('id1').value 
+                document.getElementById('id1').value =data.toUpperCase()
+            }
+            function fun2(){
+                var data=document.getElementById('id2').value 
+                document.getElementById('id2').value =data.toLowerCase()
+            }
+            </script>
+    </head>
+    <body>
+        <table align="center">
+            <caption>Sample</caption>
+            <tr>
+                <td>
+                    <label>
+                        Enter a Name:
+                    </label>
+                </td>
+                <td>
+                   <input type="text" id="id1" placeholder="Enter a name.."  value="usha" onblur="fun1()">
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <label>
+                        Enter Email id:
+                    </label>
+                </td>
+                <td>
+                   <input type="email" id="id2" placeholder="Enter email id.." value="usha@gmail.com" onfocus="fun2()">
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
